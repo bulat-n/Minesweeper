@@ -64,7 +64,7 @@ namespace Minesweeper
             Form DialogForm = new Form();
 
             Button BeginnerButton = new Button();
-            BeginnerButton.Text = "Begginer (8x8, 10 mines)";
+            BeginnerButton.Text = "Beginner (8x8, 10 mines)";
             BeginnerButton.Font = new Font(FontFamily.GenericSansSerif, 8, FontStyle.Bold);
             BeginnerButton.Click += (sender, e)=>{
                 GameSize = 8;
